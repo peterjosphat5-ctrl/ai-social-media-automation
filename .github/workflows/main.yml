@@ -1,0 +1,15 @@
+name: AI Social Media Automation
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Display Message
+        run: echo "AI Social Media Automation is ready!"
